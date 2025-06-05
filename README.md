@@ -2,40 +2,44 @@
 
 ## About
 
-A simple C++ console app to manage a small bank system. You can add clients, deposit or withdraw money, transfer between accounts, manage users, and more. Data is saved in text files, and there's a login system to keep it safe.
+This is a simple C++ console application for managing a small bank system. It uses Object-Oriented Programming (OOP) and stores data in text files. It includes client and user management, transactions, currency tools, and basic security.
 
 ---
 
 ## Features
 
-### Client Management
-- Show clients
-- Add, update, delete client
-- Search for a client
+### 1. Client Management
+- Show client list  
+- Add new client  
+- Update client information  
+- Delete client  
+- Find client by account number  
 
-### Transactions
-- Deposit and withdraw
-- Show total balances
-- Transfer between accounts
-- Show transfer records
+### 2. Transaction Management
+- Deposit money  
+- Withdraw money  
+- Show total balances  
+- Transfer money between accounts  
+- View transfer records  
 
-### User Management
-- Show users
-- Add, update, delete user
-- Search for a user
+### 3. User Administration
+- View users list  
+- Add new user  
+- Update user information  
+- Delete user  
+- Find user by username  
 
-### Other
-- Currency converter
-- Update currency rates
-- Show login history
-- Secure login & logout
+### 4. Other System Features
+- Login history tracking  
+- Currency management (list, find, update rates)  
+- Currency converter  
+- Secure logout  
+- Exit the application  
 
----
-
-## System Security
-
-- Login required
-- Too many wrong attempts? You'll be locked out and asked to contact admin
+### 5. System Security
+- Secure login system  
+- Lockout after multiple wrong login attempts  
+- Message to contact admin if locked  
 
 ---
 
@@ -43,6 +47,22 @@ A simple C++ console app to manage a small bank system. You can add clients, dep
 
 1. Clone the repository  
 2. Compile the source files  
-3. Run the app  
-4. Login using:
+3. Run the executable  
+4. Login with the sample credentials:
+       Username: Admin
+       Password: 1234
+5. Explore the application features
 
+## Requirements
+
+- C++ compiler (C++11 or later recommended)  
+- Standard C++ libraries  
+
+---
+
+## Contributing
+
+Feel free to contribute, suggest features, or report issues. Pull requests are welcome!
+
+
+   
