@@ -1,81 +1,48 @@
-# 🏦 Bank Management Console Application – C++
+# Bank Management Console App (C++)
 
-## 📌 Overview
+## About
 
-This is a **C++ Bank Management Console Application** demonstrating **advanced Object-Oriented Programming (OOP)** principles. It features a clean, modular architecture that separates user interface, business logic, and storage layers. The app includes robust banking functionalities and file-based data persistence.
+A simple C++ console app to manage a small bank system. You can add clients, deposit or withdraw money, transfer between accounts, manage users, and more. Data is saved in text files, and there's a login system to keep it safe.
 
 ---
 
-## 🚀 Features
+## Features
 
-### 1. 👥 Client Management
-- Show all clients
-- Add new client
-- Update client details
-- Delete client
+### Client Management
+- Show clients
+- Add, update, delete client
 - Search for a client
 
-### 2. 💰 Transaction Management
-- Deposit funds
-- Withdraw funds
+### Transactions
+- Deposit and withdraw
 - Show total balances
 - Transfer between accounts
-- View transfer history
+- Show transfer records
 
-### 3. 🔐 User Administration
-- List all users
-- Add new user
-- Update user data
-- Delete user
-- Find user info
+### User Management
+- Show users
+- Add, update, delete user
+- Search for a user
 
-### 4. 🌍 Currency & System Features
-- View currency list
-- Find currency details
-- Update exchange rates
+### Other
 - Currency converter
-- Login/logout functionality
-- Track login history
-- Exit option
+- Update currency rates
+- Show login history
+- Secure login & logout
 
 ---
 
-## 🔒 Security
+## System Security
 
-- Secure login system
-- Lockout mechanism after multiple failed login attempts
-- Admin contact prompt when access is denied
-
----
-
-## 🛠️ Technical Design
-
-- **Language:** C++
-- **Architecture:** Modular design (UI separated from logic)
-- **Storage:** File-based persistent storage
-- **Principles:**
-  - Object-Oriented Programming (OOP)
-  - Separation of Concerns
-  - Maintainable and scalable codebase
+- Login required
+- Too many wrong attempts? You'll be locked out and asked to contact admin
 
 ---
 
-## ⚙️ Prerequisites
+## Getting Started
 
-- C++ compiler (C++11 or later recommended)
-- Standard C++ Libraries
+1. Clone the repository  
+2. Compile the source files  
+3. Run the app  
+4. Login using:
 
----
-
-## ▶️ Getting Started
-
-```bash
-# Clone the repository
-git clone https://github.com/Iyed-Rb/Bank-Console-App.git
-
-# Open in your IDE or compile manually
-# Example using g++ (if applicable):
-g++ -std=c++11 *.cpp -o BankApp
-
-# Run the executable
-./BankApp
