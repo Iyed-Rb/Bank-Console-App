@@ -1,0 +1,13 @@
+# Ignore Visual Studio build files
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.log
+
+# Folders to ignore
+.vs/
+x64/
+Debug/
+Release/
