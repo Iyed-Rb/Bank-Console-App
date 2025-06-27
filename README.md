@@ -49,7 +49,7 @@ This is a simple C++ console application for managing a small bank system. It us
 2. Compile the source files  
 3. Run the executable  
 4. Login with the sample credentials:
-       Username: Admin
+       Username: User1
        Password: 1234
 5. Explore the application features
 
