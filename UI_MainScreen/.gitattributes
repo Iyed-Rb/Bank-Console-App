@@ -1,0 +1,22 @@
+# Auto normalize line endings for text files (C++ source, headers, scripts, configs)
+*.cpp     text
+*.h       text
+*.hpp     text
+*.c       text
+*.txt     text
+*.md      text
+*.ini     text
+
+# Treat executable files as binary so Git won’t try to merge them
+*.exe     binary
+
+# Ignore diffs and merges on log files
+*.log     binary
+
+# Visual Studio project and solution files: keep yours on merge conflicts
+*.vcxproj merge=ours
+*.sln     merge=ours
+
+# Ignore differences in whitespace for makefiles and scripts
+Makefile  text eol=lf
+*.sh      text eol=lf

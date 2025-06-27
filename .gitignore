@@ -1,0 +1,10 @@
+# Ignore Visual Studio build folders
+x64/
+Debug/
+Release/
+
+# Ignore executable and object files
+*.exe
+*.obj
+*.pdb
+*.log
